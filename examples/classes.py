@@ -1,6 +1,7 @@
 # import pprint
 from pprint import pprint
-import importme
+#import importme
+from importme  import helloall
 
 def output(mode, var, element):
   if mode == "simple":
@@ -15,7 +16,8 @@ def output(mode, var, element):
   else:
     return 1
     
-importme.helloall()
+#importme.helloall()
+helloall()
 
 classes = [ 
   "history", "animation", "art", "math", 
@@ -142,5 +144,3 @@ if response != 0:
 # print(classes2019)
 # print("Print 'classes2020'")
 # print(classes2020)
-
-
