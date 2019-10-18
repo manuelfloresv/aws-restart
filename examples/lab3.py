@@ -29,7 +29,7 @@ print(sum({x: ((seqCount[x]*(10**pKR[x]))/((10**pH)+(10**pKR[x])))   for x in ['
 print("pp")
 
 
-#Calculate the netCharge addig substracting ycde sequence from khr sequence
+#Calculate the netCharge substracting ycde sequence from khr sequence
 #Output example: 3.999773036108418
 netCharge = (   +(sum({x: ((seqCount[x]*(10**pKR[x]))/((10**pH)+(10**pKR[x]))) \
     for x in ['k','h','r']}.values()))
