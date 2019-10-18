@@ -32,3 +32,13 @@ prYellow("It's")
 prGreen("Geeks") 
 prRed("For") 
 prGreen("Geeks") 
+
+
+
+def say_hello(name="bob"):
+  if name == None:
+    name = "World"
+  print("Hello "+ name)
+say_hello()
+say_hello("Jhonny")
+  
